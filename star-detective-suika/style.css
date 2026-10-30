@@ -12,6 +12,10 @@
   font-style: normal;
 }
 
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .lucida {
   font-family: "Lucida Grande";
 }
