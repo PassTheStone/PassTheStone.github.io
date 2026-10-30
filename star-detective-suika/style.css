@@ -57,11 +57,14 @@ h1 {
   background: #ccc;
 }
 
-#workskin .discord .message > p.p_text .narrow-hidden img.medium {
+#workskin .discord .message .gifcont {
   max-width: 300px;
-  width: auto;
-  height: auto;
   max-height: 300px;
+}
+
+#workskin .discord .message > p.p_text img.medium {
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 
