@@ -62,7 +62,7 @@ h1 {
   width: auto;
   height: auto;
   max-height: 300px;
-  object-fit: contain
+  object-fit: contain;
 }
 
 #workskin .discord img.hidden {
