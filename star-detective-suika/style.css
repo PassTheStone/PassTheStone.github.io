@@ -979,7 +979,7 @@ h1 {
 
 @media (max-width: 480px) {
   .discord {
-    max-width: 100%;
+    font-size: 200%;
   }
 
   body {
