@@ -625,6 +625,9 @@ h1 {
   margin-bottom: 0.25rem;
   position: relative;
   padding: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;  
 }
 
 #workskin .discord .reply ~ div.message {
@@ -675,9 +678,6 @@ h1 {
   font-size: 0.875rem;
   height: 1.125rem;
   line-height: 1.125rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: inline-block;
   max-width: 70%;
   transform: translate(0%, 35%);
 }
