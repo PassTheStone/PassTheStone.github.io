@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Lucida Grande';
+  src: url('fonts/LucidaGrande.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('fonts/whitney-medium.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 #workskin .hide {
   display: none;
 }
