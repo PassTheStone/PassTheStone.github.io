@@ -57,16 +57,12 @@ h1 {
   background: #ccc;
 }
 
-#workskin .discord .message > p.p_text .narrow-shown img.medium {
-  max-width: 100%;
-  height: auto;
-}
-
 #workskin .discord .message > p.p_text .narrow-hidden img.medium {
   max-width: 300px;
   width: auto;
   height: auto;
   max-height: 300px;
+  object-fit: contain
 }
 
 #workskin .discord img.hidden {
@@ -978,7 +974,7 @@ h1 {
 }
 
 @media (max-width: 480px) {
-  .discord {
+  #workskin .discord {
     max-width: 100%;
   }
 
