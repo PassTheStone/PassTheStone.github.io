@@ -12,6 +12,10 @@
   font-style: normal;
 }
 
+body {
+  margin-top: 10px;
+}
+
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
