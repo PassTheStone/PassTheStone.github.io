@@ -678,7 +678,7 @@ h1 {
   overflow: hidden;
   text-overflow: ellipsis;
   display: inline-block;
-  max-width: 80%;
+  max-width: 70%;
   transform: translate(0%, 35%);
 }
 
