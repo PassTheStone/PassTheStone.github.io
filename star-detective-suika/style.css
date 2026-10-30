@@ -20,6 +20,10 @@ h1 {
   font-family: "Lucida Grande";
 }
 
+#workskin {
+  padding: 5px;
+}
+
 #workskin .hide {
   display: none;
 }
