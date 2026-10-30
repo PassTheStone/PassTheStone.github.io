@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Lucida Grande';
-  src: url('star-detective-suika/fonts/LucidaGrande.ttf') format('ttf');
+  src: url('fonts/LucidaGrande.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Whitney';
-  src: url('star-detective-suika/fonts/whitney-medium.otf') format('otf');
+  src: url('fonts/whitney-medium.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -17,7 +17,7 @@ h1 {
 }
 
 .lucida {
-  font-family: "Lucida Grande";
+  font-family: 'Lucida Grande';
 }
 
 #workskin {
