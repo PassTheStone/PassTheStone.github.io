@@ -8,7 +8,7 @@
 @font-face {
   font-family: 'Whitney';
   src: url('fonts/whitney-medium.otf') format('opentype');
-  font-weight: normal;
+  font-weight: 1.5em;
   font-style: normal;
 }
 
