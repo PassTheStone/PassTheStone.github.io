@@ -982,8 +982,6 @@ h1 {
     max-width: 100%;
   }
 
-  body {
-    scale: 2;
-  }
+  body { font-size: 200%; } 
 
 }
