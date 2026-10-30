@@ -2,7 +2,7 @@
   display: none;
 }
 
-.emoji-divider {
+#workskin .emoji-divider {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -10,8 +10,8 @@
   color: #666;
 }
 
-.emoji-divider::before,
-.emoji-divider::after {
+#workskin .emoji-divider::before,
+#workskin .emoji-divider::after {
   content: "";
   flex: 1;
   height: 1px;
@@ -36,7 +36,7 @@
 
 #workskin .discord {
   display: block;
-  max-width: 100%;
+  max-width: 80%;
   box-sizing: border-box;
 }
 
