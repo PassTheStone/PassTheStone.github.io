@@ -75,7 +75,7 @@ h1 {
 
 #workskin .discord {
   display: block;
-  max-width: 80%;
+  max-width: 70%;
   box-sizing: border-box;
 }
 
@@ -975,4 +975,15 @@ h1 {
 
 #workskin .discord .sagan {
   color: rgb(254, 242, 161) !important;
+}
+
+@media (max-width: 480px) {
+  .discord {
+    max-width: 100%;
+  }
+
+  body {
+    scale: 2;
+  }
+
 }
