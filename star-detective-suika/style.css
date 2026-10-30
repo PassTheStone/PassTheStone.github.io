@@ -12,6 +12,10 @@
   font-style: normal;
 }
 
+.lucida {
+  font-family: "Lucida Grande";
+}
+
 #workskin .hide {
   display: none;
 }
