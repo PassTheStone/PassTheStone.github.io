@@ -20,6 +20,19 @@ h1 {
   font-family: 'Lucida Grande';
 }
 
+.toggle summary::after {
+  content: 'Reversi';
+}
+
+.toggle[open] summary::after {
+  content: 'Default Skin';
+}
+
+#workskin:has(.toggle[open]) {
+  background-color: #333333;
+  color: #FBFBFB;
+}
+
 #workskin {
   padding: 5px;
 }
