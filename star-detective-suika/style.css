@@ -17,7 +17,7 @@ h1 {
 }
 
 .lucida {
-  font-family: 'Lucida Grande';
+  font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode';
 }
 
 .toggle summary::after {
