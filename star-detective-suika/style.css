@@ -982,6 +982,8 @@ h1 {
     max-width: 100%;
   }
 
-  body { font-size: 200%; } 
+  body {
+    zoom: 2;
+  }
 
 }
