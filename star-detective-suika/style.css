@@ -983,7 +983,11 @@ h1 {
   }
 
   body {
-    font-size: 200%;
+    font-size: 110%;
+  }
+
+  #workskin {
+    padding: 0;
   }
 
 }
