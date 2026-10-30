@@ -625,9 +625,6 @@ h1 {
   margin-bottom: 0.25rem;
   position: relative;
   padding: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: inline-block;  
 }
 
 #workskin .discord .reply ~ div.message {
@@ -680,6 +677,10 @@ h1 {
   line-height: 1.125rem;
   max-width: 70%;
   transform: translate(0%, 35%);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;  
+
 }
 
 #workskin .discord.darkmode .reply::before {
@@ -992,7 +993,6 @@ h1 {
   #workskin {
     padding: 0;
   }
-
 }
 
 @media (min-width: 481px) {
