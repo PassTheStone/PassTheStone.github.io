@@ -33,10 +33,6 @@ h1 {
   color: #FBFBFB;
 }
 
-#workskin {
-  padding: 5px;
-}
-
 #workskin .hide {
   display: none;
 }
@@ -677,10 +673,10 @@ h1 {
   line-height: 1.125rem;
   max-width: 70%;
   transform: translate(0%, 35%);
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   display: inline-block;  
-
 }
 
 #workskin .discord.darkmode .reply::before {
@@ -983,11 +979,20 @@ h1 {
 
 @media (max-width: 480px) {
   #workskin .discord {
+    width: 100%;
     max-width: 100%;
   }
 
   body {
     font-size: 110%;
+    margin: 0;
+    padding: 0;
+  }
+
+  figure .discord {
+    font-size: 110%;
+    margin: 0;
+    padding: 0;
   }
 
   #workskin {
@@ -998,5 +1003,8 @@ h1 {
 @media (min-width: 481px) {
   #workskin .discord {
     max-width: 70%;
+  }
+  #workskin {
+    padding: 5px;
   }
 }
