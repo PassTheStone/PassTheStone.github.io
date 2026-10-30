@@ -74,7 +74,6 @@ h1 {
 
 #workskin .discord {
   display: block;
-  max-width: 70%;
   box-sizing: border-box;
 }
 
@@ -989,4 +988,10 @@ h1 {
     padding: 0;
   }
 
+}
+
+@media (min-width: 481px) {
+  #workskin .discord {
+    max-width: 70%;
+  }
 }
